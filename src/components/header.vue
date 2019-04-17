@@ -228,7 +228,7 @@ img {
 }
 
 #experience {
-  background-color: #95A79F;
+  background-color: #66A5AD;
   padding: 10px;
   margin: 10px;
   font-family: 'Source Code Pro', monospace;
@@ -243,7 +243,7 @@ img {
 }
 
 #resume {
-  background-color: #A95E43;
+  background-color: #AEBD38;
   font-family: 'Source Code Pro', monospace;
   margin: 10px;
   padding: 10px;
