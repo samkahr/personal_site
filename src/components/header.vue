@@ -78,7 +78,7 @@
            <h1 class="section-header text-uppercase" > Experience </h1>
 
 
-          <carousel :nav="false" >
+          <carousel :nav="false" :responsive="{0:{items:1,nav:false},600:{items:3,nav:false}}" >
                <div class="item">
                    <div class="row">
                        <div class="col-12">

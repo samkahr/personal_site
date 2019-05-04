@@ -18,6 +18,9 @@
     <h5 class="card-title">{{project.title}}</h5>
     <p class="card-text">{{project.overview}}</p>
     <a v-bind:href=project.link class="btn btn-primary" target="_blank">View on Github</a>
+		<br></br>
+		<a v-bind:href=project.link2 v-if=project.link2 class="btn btn-primary" target="_blank">View Project</a>
+
 
 </div>
 </div>
@@ -39,7 +42,7 @@ export default {
 			{title: "Digital Braille", overview: "Built a machine learning app that translates text in a picture to on screen brail. Built using Javascript and Google Clouds ML Engine", category: 'Machine Learning', link: 'https://github.com/dxh9845/braille-vibrate'},
 			{title: "Hot Dog or No Hot Dog", overview: "End to end machine learning app that takes a raw jpeg file and will determine whether image contains a hot dog or not. Built using TensorFlow and OpenCV", category: 'Machine Learning', link: ''},
 			{title: 'Video Object Recognition', overview: "Object detection using trained TensorFlow model, & exporting .mp4 with labels using OpenCV" , category: 'Machine Learning', link: 'https://github.com/samkahr/videoObjectRecognition/blob/master/Video%20Object%20Recognition.ipynb'},
-      {title: 'Ad CTR Prediction', overview: "Created an end to end machine learning app that allows marketers to upload a CVS with ad targeting criteria and get click through rate predictions" , category: 'Machine Learning', link: 'https://github.com/kanalyzers/ad_optimization'},
+      {title: 'Ad CTR Prediction', overview: "Created an end to end machine learning app that allows marketers to upload a CVS with ad targeting criteria and get click through rate predictions" , category: 'Machine Learning', link: 'https://github.com/kanalyzers/ad_optimization', link2:'https://kanalyzers.appspot.com/'},
 
 		]
 	}
