@@ -166,7 +166,7 @@
 
                </div>
                <div class="scribd-url text-center">
-                   <a href="https://www.scribd.com/embeds/406565473/content?start_page=1&view_mode=scroll" class="h5 text-uppercase" target="_blank" style="color:black;">
+                   <a href="https://www.scribd.com/embeds/416755637/content?start_page=1&view_mode=scroll" class="h5 text-uppercase" target="_blank" style="color:black;">
                        View on Scribd <small><i class="fa fa-chevron-right" aria-hidden="true"></i></small></h5>
                    </a>
                </div>
